@@ -10,9 +10,10 @@ function sayHiToGrandma(arg){
     return "I can't hear you!" ;
   }
   else if(arg===shout(arg)){
-    return("YES INDEED!");
+    return"YES INDEED!";
   }
 else if(arg==="I love you, Grandma."){
   return"I love you, too.";
 
+}
 }
