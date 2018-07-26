@@ -7,12 +7,12 @@ function logWhisper(string){console.log(string.toLowerCase())}
 
 function sayHiToGrandma(arg){
   if(arg===whisper(arg)){
-    return("I can't hear you!)");
+    return "I can't hear you!" ;
   }
   else if(arg===shout(arg)){
     return("YES INDEED!");
   }
 else if(arg==="I love you, Grandma."){
-  return("I love you, too.");
-}
+  return"I love you, too.";
+
 }
